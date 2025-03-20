@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
 [[bin]]
 name = "slices"
 path = "src/bin/slices.rs"
@@ -23,3 +24,15 @@ path = "src/bin/structs.rs"
 [[bin]]
 name = "enums"
 path = "src/bin/enums.rs"
+
+[[bin]]
+name = "enums2"
+path = "src/bin/enums2.rs"
+
+[[bin]]
+name = "enums3"
+path = "src/bin/enums3.rs"
+
+[[bin]]
+name = "enums4"
+path = "src/bin/enums4.rs"
