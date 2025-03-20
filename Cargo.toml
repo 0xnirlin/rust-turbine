@@ -1,0 +1,25 @@
+[package]
+name = "ownership"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+[[bin]]
+name = "slices"
+path = "src/bin/slices.rs"
+
+[[bin]]
+name = "slices2"
+path = "src/bin/slices2.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "structs"
+path = "src/bin/structs.rs"
+
+[[bin]]
+name = "enums"
+path = "src/bin/enums.rs"
